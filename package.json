@@ -1,0 +1,23 @@
+{
+  "name": "myapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
+    "supertest": "^3.0.0"
+  }
+}
